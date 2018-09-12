@@ -1,5 +1,7 @@
 //console.log('Javascript from external js file');
 
+/************************************************************
+
 /*
            Variables and datatypes
 
@@ -15,6 +17,7 @@ var fullAge = true;
 var job;
  */
 
+/************************************************************
 
  /*
  Variable mutation and type coercion
@@ -47,6 +50,7 @@ var job;
  console.log(firstName + ' '+ lastName);
 
  */
+/************************************************************
 
 
  /*
@@ -85,11 +89,12 @@ var job;
 
 */
 
+/************************************************************
 /*
 
 Operator Precedence in javascript
 */
-
+/*
 var now = 2018;
 var yearRajan = 1970;
 var fullAge = 21;
@@ -115,3 +120,27 @@ x*=2;
 // Both the operators above are exactly same.
 x+=2;
 x++;
+*/
+
+/************************************************************
+
+/*
+If Else Statement
+
+*/
+
+var firstName = 'Rajan';
+var status = 'single';
+
+if(status === 'married'){
+  console.log(firstName + ' is married');
+} else{
+  console.log(firstName+ ' will hopefully marry soon');
+}
+
+var isMarried = true;
+if(isMarried){
+  console.log(firstName + ' is married');
+} else{
+  console.log(firstName+ ' will hopefully marry soon');
+}

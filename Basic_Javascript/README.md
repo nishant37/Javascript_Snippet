@@ -61,3 +61,8 @@ Tells us the type of operator
 **Operator_Precedence**
 1. Assignment and Exponent operators work from right-to-left
 2. Math operators work from left-to-right
+
+
+**If Else Statement**
+1. In Javascript if Statement (===) is used to compare value as well as type.
+2. If the boolean variable is used in if Statement then we don't have to write a condition. 
