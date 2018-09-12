@@ -40,10 +40,10 @@ Prompt is used in Javascript to get the values from user. The value from prompt 
 Operators are functions that are written in a special way in Javascript.
 
 Mathematical operators
-1. -
-2. +
-3. *
-4. /
+1. - (Subtraction)
+2. + (Addition)
+3. * (Multiplication)
+4. / (Division)
 
 Logical Operators
 1. ==  equal to
