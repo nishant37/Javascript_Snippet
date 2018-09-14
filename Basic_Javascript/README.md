@@ -65,4 +65,12 @@ Tells us the type of operator
 
 **If Else Statement**
 1. In Javascript if Statement (===) is used to compare value as well as type.
-2. If the boolean variable is used in if Statement then we don't have to write a condition. 
+2. If the boolean variable is used in if Statement then we don't have to write a condition.
+
+**Boolean Logic**
+Boolean Logic deals with true and false.
+
+Several Logical Operators:
+1. AND (&&) => true if all are true
+2. OR (||) => true if one is true
+3. NOT (!) => inverts true/false value

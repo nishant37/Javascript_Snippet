@@ -129,6 +129,8 @@ If Else Statement
 
 */
 
+/*
+
 var firstName = 'Rajan';
 var status = 'single';
 
@@ -143,4 +145,29 @@ if(isMarried){
   console.log(firstName + ' is married');
 } else{
   console.log(firstName+ ' will hopefully marry soon');
+}
+
+*/
+
+/************************************************************
+
+/*
+Boolean Logic
+
+*/
+
+var firstName = 'Rajan';
+var age = 16;
+
+if(age<13){
+  console.log(firstName+' is a boy.');
+} else if (age >=13 && age < 20) {
+    console.log(firstName+' is a teenager.');
+} else if (age >=20 && age < 30){
+  console.log(firstName+' is a young man.');
+}
+
+
+else {
+  console.log(firstName+' is a man.');
 }
