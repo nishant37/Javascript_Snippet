@@ -156,6 +156,7 @@ Boolean Logic
 
 */
 
+/*
 var firstName = 'Rajan';
 var age = 16;
 
@@ -170,4 +171,36 @@ if(age<13){
 
 else {
   console.log(firstName+' is a man.');
+}
+*/
+
+/************************************************************
+
+/*
+Ternary Operator and switch Statement
+
+*/
+
+var firstName = 'Rajan';
+var age = 16;
+
+// Ternary Operator
+age >=25 ? console.log(firstName+ ' drinks beer.')
+: console.log(firstName+' drinks Juice.');
+
+var drink = age > =18 ? 'beer' : 'juice';
+
+// Switch Statement
+var job = 'businessman';
+switch (job) {
+  case 'businessman':
+  case 'business':
+      console.log(firstName+ ' is a businessman' );
+    break;
+  case 'driver':
+       console.log(firstName+ ' is a driver');
+    break;
+
+  default:
+     console.log(firstName+' does something else');
 }

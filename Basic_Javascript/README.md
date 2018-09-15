@@ -74,3 +74,10 @@ Several Logical Operators:
 1. AND (&&) => true if all are true
 2. OR (||) => true if one is true
 3. NOT (!) => inverts true/false value
+
+**Ternary Operator and Switch Statement**
+In the ternary operator there is condition first then the if block and then there is else block.
+
+Switch Statement is used to perform different actions based on different conditions.
+
+There can be multiple case clauses for the same code to be executed.
