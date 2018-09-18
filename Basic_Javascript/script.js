@@ -181,7 +181,7 @@ Ternary Operator and switch Statement
 
 */
 
-var firstName = 'Rajan';
+/*var firstName = 'Rajan';
 var age = 16;
 
 // Ternary Operator
@@ -203,4 +203,36 @@ switch (job) {
 
   default:
      console.log(firstName+' does something else');
+}*/
+
+/************************************************************
+
+/*
+Truth and False Values and Equality OPerators
+
+*/
+
+var height;
+// Handy way of testing if the variable exists or not
+if (height) {
+  console.log('Variable is defined');
+}else {
+  // height variable is Undefined
+  console.log('Variable has not been defined');
+}
+
+height =23;
+// Variable is defined now
+if (height) {
+  console.log('Variable is defined');
+}else {
+  console.log('Variable has not been defined');
+}
+
+height = 0;
+// We check if variable exists or it is equal to 0
+if (height || height ===0) {
+  console.log('Variable is defined');
+}else {
+  console.log('Variable has not been defined');
 }

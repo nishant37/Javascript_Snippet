@@ -81,3 +81,10 @@ In the ternary operator there is condition first then the if block and then ther
 Switch Statement is used to perform different actions based on different conditions.
 
 There can be multiple case clauses for the same code to be executed.
+
+**Truthy and Falsy Values**
+Falsy Values in Javascript includes 'Undefined', 'null', '0', ''(Empty Strings), 'Not a Number(NaN)'
+
+Truthy Values: NOT Falsy Values
+
+If/Else is the handy way to describe if value of variable is defined or not
