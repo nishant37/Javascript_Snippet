@@ -99,3 +99,17 @@ function function_name()
 Functions helps us to not repeat our code again and again
 
 We can call one function from another function.
+
+.**Function Statements and Expressions**
+
+When we start writing function Expression we use function keyword and then put arguments list and then we can assign the variable to the function.
+
+When we use the return Statement in switch Statement we do not use break Statement
+
+Return keyword not only returns the values but also end the function.
+
+**Difference between Statement and Expression**
+
+Javascript Expressions are piece of code that always produces values. It doesn't matter how long they are as long as the code results in a single value then it is an Expression.
+
+Statement performs actions. They do things but they do not produce intermediate results.   

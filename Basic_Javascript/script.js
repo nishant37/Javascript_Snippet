@@ -269,3 +269,31 @@ var ageIndependence = calculateAge(1947);
 yearsUntilRetirement(1990, 'John');
 yearsUntilRetirement(1948, 'Mike');
 */
+
+/*
+Function Statements and Expressions
+*/
+
+// Function declaration
+
+function whatDoYouDo(job, firstName){
+
+}
+
+// Function Expression
+var whatDoYouDo = function(job, firstName){
+    switch (job) {
+      case 'Teacher':
+          return firstName + ' teaches kid how to code';
+
+        case 'Driver':
+              return firstName + ' drives a cab in Tampa';
+
+        case 'Designer':
+                  return firstName + ' designs websites';
+
+      default:
+                    return firstName + ' is involved in different Job';
+    }
+}
+console.log(whatDoYouDo('Teacher', 'Mike'));
