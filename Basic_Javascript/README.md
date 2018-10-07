@@ -88,3 +88,14 @@ Falsy Values in Javascript includes 'Undefined', 'null', '0', ''(Empty Strings),
 Truthy Values: NOT Falsy Values
 
 If/Else is the handy way to describe if value of variable is defined or not
+
+**Functions**
+Functions are like containers that hold some kind of code and we can pass arguments into the functions and then they can return the value.
+
+For writing a function we write:
+
+function function_name()
+
+Functions helps us to not repeat our code again and again
+
+We can call one function from another function.

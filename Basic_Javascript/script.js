@@ -212,6 +212,7 @@ Truth and False Values and Equality OPerators
 
 */
 
+/*
 var height;
 // Handy way of testing if the variable exists or not
 if (height) {
@@ -235,4 +236,36 @@ if (height || height ===0) {
   console.log('Variable is defined');
 }else {
   console.log('Variable has not been defined');
+}  */
+
+/************************************************************
+
+/*
+functions
+
+*/
+
+/*
+function calculateAge(birthYear){
+   return 2018 - birthYear;
 }
+// ageRajan is a variable name used to store the output from the function called
+var ageRajan = calculateAge(1970);
+var ageMike = calculateAge(1975);
+var ageIndependence = calculateAge(1947);
+//console.log(ageRajan, ageMike, ageIndependence);
+
+
+   function yearsUntilRetirement(year, firstName){
+   var age = calculateAge(year);
+   var retirement = 65 - age;
+   if (retirement > 0) {
+          console.log(firstName + ' retires in '+ retirement+ ' years.');
+   } else{
+     console.log(firstName + ' is already retired');
+   }
+
+}
+yearsUntilRetirement(1990, 'John');
+yearsUntilRetirement(1948, 'Mike');
+*/
