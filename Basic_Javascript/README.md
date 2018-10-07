@@ -112,4 +112,46 @@ Return keyword not only returns the values but also end the function.
 
 Javascript Expressions are piece of code that always produces values. It doesn't matter how long they are as long as the code results in a single value then it is an Expression.
 
-Statement performs actions. They do things but they do not produce intermediate results.   
+Statement performs actions. They do things but they do not produce intermediate results.
+
+**Arrays**
+
+Arrays are collection of variables which can have different data types.
+
+**Creating an Array**
+
+1. Using an array literal
+  var array_name = [item1,item2,item3,...]
+
+2. Using a new keywords
+ var array_name = new Array(item1,item2,item3);
+
+ **Access Elements**
+ We can access elements of an array by referring to its index number.
+ var name = array_name[0];
+ This Statement access the value of the first element in array_name.
+
+ **Length**
+ To get the length of an array we use array_name.length function
+
+ **Mutate Array**
+ If we write array_name[element_name]='new_value' then we can see that new value in the array.
+ array_name[1] = item5;
+
+ We can have different data types in a single data structure.
+
+**Methods to add Elements to an array**
+
+ push method adds an element to the end of array.
+
+ unshift method is similar to push method but instead of adding to end of an array it adds to the beginning.
+
+ **Methods to delete Elements from an array**
+
+pop method deletes an element from the end in an array.
+
+shift method removes an element from beginning in an array.
+
+indexOf method returns the position of an element that we pass in the square brackets.
+If the element is present in array it will return the position of the element
+else it will return -1

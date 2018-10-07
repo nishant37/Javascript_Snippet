@@ -281,6 +281,7 @@ function whatDoYouDo(job, firstName){
 }
 
 // Function Expression
+/*
 var whatDoYouDo = function(job, firstName){
     switch (job) {
       case 'Teacher':
@@ -297,3 +298,42 @@ var whatDoYouDo = function(job, firstName){
     }
 }
 console.log(whatDoYouDo('Teacher', 'Mike'));
+*/
+
+/*
+Arrays
+*/
+
+// Array Initialization
+var names = ['Rajan', 'Vipul', 'Aman'];
+var years = new Array(1990, 1969, 1948);
+
+// Array Functions
+console.log(names[0]);
+console.log(names);
+console.log(names.length);
+
+// Mutate Array Data
+names[1] = 'Mark';
+names[names.length] = 'Neha';
+console.log(names);
+
+// Different data types
+var Neha = ['Neha', 'Kharkar', 25, 'Student', true];
+console.log(Neha);
+
+// Methods to add elements to an array
+Neha.push("blue");
+Neha.unshift('Ms');
+console.log(Neha);
+
+// Methods to delete elements from an array
+Neha.pop();
+console.log(Neha);
+Neha.shift();
+console.log(Neha);
+
+console.log(Neha.indexOf(25));
+
+var isTeacher = Neha.indexOf('Teacher') == -1 ? 'Neha is not a teacher' : 'Neha is a teacher';
+console.log(isTeacher);
