@@ -305,7 +305,7 @@ Arrays
 */
 
 // Array Initialization
-var names = ['Rajan', 'Vipul', 'Aman'];
+/*var names = ['Rajan', 'Vipul', 'Aman'];
 var years = new Array(1990, 1969, 1948);
 
 // Array Functions
@@ -337,3 +337,39 @@ console.log(Neha.indexOf(25));
 
 var isTeacher = Neha.indexOf('Teacher') == -1 ? 'Neha is not a teacher' : 'Neha is a teacher';
 console.log(isTeacher);
+*/
+
+/*
+Objects and Properties
+*/
+
+// Object literal
+var rajan = {
+  firstName: 'Rajan',
+  lastName: 'Narula',
+  birthYear: 1972,
+  family: ['Sangeeta', 'Tushar', 'Nishant'],
+  job: 'businessman',
+  isMarried: true
+};
+
+// Print Object
+console.log(rajan);
+
+//Aceess property of object using dot operator
+console.log(rajan.firstName);
+
+//Aceess property of object square brackets
+console.log(rajan['lastName']);
+
+// Mutate data
+rajan.job = 'father';
+rajan['birthYear'] = 1975;
+console.log(rajan);
+
+// To create new empty object syntax
+var Mark = new Object();
+Mark.name = 'Mark';
+Mark.lastName = 'Waugh';
+Mark['birthYear'] = 1980;
+console.log(Mark);

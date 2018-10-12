@@ -155,3 +155,44 @@ shift method removes an element from beginning in an array.
 indexOf method returns the position of an element that we pass in the square brackets.
 If the element is present in array it will return the position of the element
 else it will return -1
+
+**Objects and Properties**
+
+Objects can be used to group together different variables that belong together and have no particular order.
+
+Objects in JS are created using literal.
+
+Ex: var value = {
+  key : 'data',
+  key1 : 'data1'
+};
+
+We can put all type of different data types in Javascript objects.
+
+We can even put arrays in objects.
+
+**Access Properties of object**
+
+First is using the dot operator
+
+In javascript Properties of object are accessed using the dot notation.
+For example: (value.data) to access the property of above object.
+
+Second is using the square brackets []
+For example: value['data1'] access the second key of the object created
+
+**Mutate Objects**
+
+We can mutate data using dot operator or square brackets same as an arrays
+value.key = data2;
+value[key1] = data3;
+
+**To create empty object**
+
+var var_name = new object();
+var_name.key = value;
+
+
+**Difference between arrays and Objects**
+
+In arrays order matters a lot whereas in object it does not matter at all.
